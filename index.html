@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuard | Digital Defense</title>
+    <style>
+        /* Modern CSS Variables */
+        :root {
+            --navy: #151b54;
+            --blue-glow: #00d4ff;
+            --soft-blue: #e3f2fd;
+            --accent: #00796b;
+            --glass: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+            /* Using a high-tech subtle gradient background */
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background-attachment: fixed;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--navy);
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--blue-glow);
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+
+        nav {
+            background-color: var(--navy);
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--blue-glow);
+            transform: translateY(-2px);
+        }
+
+        section {
+            padding: 40px;
+            background-color: var(--glass);
+            margin: 30px auto;
+            border-radius: 15px;
+            max-width: 900px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: scale(1.01);
+        }
+
+        h2 {
+            color: var(--navy);
+            border-left: 5px solid var(--blue-glow);
+            padding-left: 15px;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        /* Styling for the Benefits list */
+        .benefit-item {
+            background: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 5px solid var(--accent);
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .benefit-item strong {
+            margin-right: 15px;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        .conclusion-card {
+            background: var(--navy);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 900px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .conclusion-card h2 {
+            color: var(--blue-glow);
+            border: none;
+            padding: 0;
+        }
+
+        footer {
+            background: #0f2027;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: var(--blue-glow);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CYBERGUARD</h1>
+        <p>The Frontline of Digital Defense</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#materials">Materials</a>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#conclusion">Conclusion</a>
+    </nav>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>In today's digital world, protecting personal information has become more important than ever. With the rise of social media, online platforms, and digital transactions, people often share sensitive data without realizing the risks. Our digital prototype focuses on improving cybersecurity by helping users become more aware and cautious about the information they share online.</p>
+    </section>
+
+    <section id="materials">
+        <h2>Materials Used</h2>
+        <p>Created using <strong>OneCompiler</strong> for code development and real-time previewing.</p>
+    </section>
+     
+    <section id="problem">
+        <h2>Problem</h2>
+        <p>Many users unknowingly expose personal information such as their location, contact details, and private data on the Internet. This increases the risk of identity theft, scams, and hacking. The lack of awareness and control over shared data makes users vulnerable to cyber threats.</p>
+    </section>
+     
+    <section id="solution">
+        <h2>Solution</h2>
+        <p>To address the issue, we created an app that limits and manages the personal information users share online. The app guides users in making safer decisions by monitoring, filtering, and controlling the type of information they disclose on different platforms.</p>
+    </section>
+    
+    <section id="function">
+        <h2>Main Function</h2>
+        <p>The app's main function is to analyze and limit the sharing of personal information. It alerts users when they are about to share sensitive data, provides recommendations for safer alternatives, and helps manage privacy settings across platforms.</p>
+    </section>
+    
+    <section id="benefits">
+        <h2>User Benefits</h2>
+        <div class="benefit-item">
+            <strong>1.</strong> Protects personal and sensitive information.
+        </div>
+        <div class="benefit-item">
+            <strong>2.</strong> Reduces the risk of cyber attacks and identity theft.
+        </div>
+        <div class="benefit-item">
+            <strong>3.</strong> Increases awareness of online privacy and security.
+        </div>
+        <div class="benefit-item">
+            <strong>4.</strong> Provides better control over digital presence.
+        </div>
+    </section>
+    
+    <div class="conclusion-card" id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Overall, <strong>CyberGuard</strong> aims to create a safer online environment by empowering users to manage their personal information responsibly. By increasing awareness and providing practical tools, the app helps reduce cyber risk and promotes better cybersecurity habits in everyday digital life.</p>
+    </div>
+
+    <footer>
+        <p><strong>Created by:</strong> CYBERGUARD Team</p>
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">Email</a> |
+            <a href="#">School Website</a>
+        </p>
+    </footer>
+
+</body>
+</html>
